@@ -18,7 +18,7 @@ If you run into any trouble with the setup/code or have any questions please con
 	* model ensemble
 * [inference](#INFERENCE)
 
-## ARCHIVE CONTENTS
+# ARCHIVE CONTENTS
 | Folder | Contents|
 | ---------- | -----------|
 | Ensemble  |  model ensemble code for final submission   |
@@ -29,7 +29,7 @@ If you run into any trouble with the setup/code or have any questions please con
 |youtube-8m-stacking|code to ensemble models via stacking|
 |youtube-8m-training|code to train a single model|
 
-## HARDWARE
+# HARDWARE
 |Hardware   |Specs   |
 | ------------ | ------------ |
 |  OS | Ubuntu 16.04 LTS (256 GB boot disk) |
@@ -37,7 +37,7 @@ If you run into any trouble with the setup/code or have any questions please con
 |CPU|2x Intel(R) Xeon(R) CPU E5-2630 v4 (20 cores in total)|
 |  memory |  128G |
 
-## SOFTWARE 
+# SOFTWARE 
 | Software  | Version  |
 | ------------ | ------------ |
 | Python  | 2.7.15  |
@@ -46,7 +46,7 @@ If you run into any trouble with the setup/code or have any questions please con
 |nvidia derivers|v.384|
 |tensorflow|1.9.0|
 
-## INSTALLATION
+# INSTALLATION
 ### 1.install tensorflow-1.9.0
 we recommand installing tensorflow 1.9.0 which has better support for tf.bfloat16 type.
 Please follow installation guide on [tensorflow website](https://www.tensorflow.org/install/install_linux? "tensorflow website").
