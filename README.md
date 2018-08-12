@@ -2,9 +2,10 @@
 
 Below you can find a outline of how to reproduce our solution for the <2nd YouTube-8M Video Understanding Challenge> competition.
 If you run into any trouble with the setup/code or have any questions please contact us at <303297957@qq.com>
+
 ****
 # CONTENTS
-* [archive contents](#ARCHIVE CONTENTS)
+* [archive contents](#ARCHIVECONTENTS)
 * [hardware](#HARDWARE) 
 * [software](#SOFTWARE)
 * [installation](#INSTALLATION)
@@ -16,9 +17,6 @@ If you run into any trouble with the setup/code or have any questions please con
 	* quantization
 	* model ensemble
 * [inference](#INFERENCE)
-
-
-
 
 ## ARCHIVE CONTENTS
 | Folder | Contents|
@@ -43,16 +41,16 @@ If you run into any trouble with the setup/code or have any questions please con
 | Software  | Version  |
 | ------------ | ------------ |
 | Python  | 2.7.15  |
-| CUDA  | 8.0  |
-|cudnn|6.0.21|
-|nvidia derivers|v.390|
+| CUDA  | 9.0  |
+|cudnn|7.0.5|
+|nvidia derivers|v.384|
 |tensorflow|1.9.0|
 
 ## INSTALLATION
-##### 1.install tensorflow-1.9.0
+### 1.install tensorflow-1.9.0
 we recommand installing tensorflow 1.9.0 which has better support for tf.bfloat16 type.
 Please follow installation guide on [tensorflow website](https://www.tensorflow.org/install/install_linux? "tensorflow website").
-##### 2.install requirements
+### 2.install requirements
 To install some python packages, simply run:
 ```shell
 pip install requirements.txt
@@ -109,20 +107,18 @@ Now, we generated a `bfloat16` folder which contains tf.bfloat16 checkpoints, th
 ......
 
 **Put all bfloat16 floders in a new floder**, then modify `model_path` and `output_path` in `multi_ensemble_tile.sh`.
-**Now, we are ready to ensemble these models. **Please run:
+**Now, we are ready to ensemble these models**. **Please run:**
 ```shell
 cd Ensemble/Ensemble/
 ./multi_ensemble_tile.sh [a folder containing model-bfloat16 folders]
 ```
 Done! A final inference model is generated in `output_path`
 
-#INFERENCE
+# INFERENCE
 First modify `train_dir` and `output_file` in `ensemble_infer.sh`,then run:
 ```shell
 ./ensemble_infer.sh
 ```
 You can also use our pretrained model to make predictions, the pretrained` inferece_model` is in  `./models`, just specify `train_dir=./models`.
 
-Done!Now we get the .csv file for submission : )
-
-
+Done! Now we get the .csv file for submission : )
