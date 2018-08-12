@@ -1,0 +1,1 @@
+{"ensemble_model_path":"embedgauNonLocal-gatednetvladLF-64k-1024-80-0002-300iter-norelu-basic-gatedmoe8-t64-300k-bfloat16,GRU-002-1200-backup-bfloat16","ensemble_output_path":"ensembled_models","Ensemble_Models":"ensemble_models","eval_data_pattern":"","input_data_pattern":"","train_dir":"inference_models","output_file":"samples_submission.csv"}

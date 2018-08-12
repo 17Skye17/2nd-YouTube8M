@@ -1,0 +1,5 @@
+SWA_README
+
+This code perfroms SWA with different checkpoints.
+Modify avg_eval.sh according to different models with swa=True and adjust swa_start.
+

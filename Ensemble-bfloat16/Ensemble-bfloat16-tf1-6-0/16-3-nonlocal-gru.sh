@@ -1,0 +1,23 @@
+python multi_ensemble_16.py \
+    --Ensemble_Models=$1 \
+    --is_training=False \
+    --data_list=lists/test_50.lst \
+    --batch_size=80 \
+    --netvlad_cluster_size=64 \
+    --netvlad_hidden_size=1024 \
+    --moe_l2=1e-6 \
+    --iterations=300 \
+    --moe_pro_gating=True \
+    --netvlad_relu=False \
+    --gating=True \
+    --nonlocalvlad_types=True \
+    --beforeNorm=True \
+    --max_step=700000 \
+    --num_epochs=20 \
+    --temperature=64 \
+    --moe_num_mixtures=8 \
+    --gru_cells=1200 \
+    --num_readers=8 \
+    --run_once=True \
+    --swa=False \
+    --swa_start=170000

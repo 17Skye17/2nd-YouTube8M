@@ -1,0 +1,14 @@
+请在tensorflow1.6.0版本下进行bfloat16测试
+
+1.把tensorflow python源码中的variable_scope.py替换掉
+  （anaconda安装的tensorflow话路径在 anaconda2/envs/[env name]/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py）
+
+2.把tensorflow python源码中的saver.py替换掉
+  （anaconda安装的tensorflow话路径在 anaconda2/envs/[env name]/lib/python2.7/site-packages/tensorflow/python/training/saver.py）
+
+3.把float32的checkpoint为bfloat16的checkpoint
+   对于每个单个的模型都  run ./ckptfloat16.sh  [模型checkpoints所在的文件夹路径]
+   这样会在每个模型的文件夹中创建一个bfloat16的文件夹，里面是保存了bfloat16类型参数的checkpoint
+
+4.evaluation
+   run 

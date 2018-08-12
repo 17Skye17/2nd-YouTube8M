@@ -1,0 +1,30 @@
+export CUDA_VISIBLE_DEVICES="0,1"
+python stacking_training.py \
+    --Ensemble_Models=$1 \
+    --frame_features=True \
+    --feature_names="rgb,audio" \
+    --feature_size="1024,128" \
+    --is_training=True \
+    --start_new_model=True \
+    --train_data_pattern="/home/skye/distillingdataset/validate*.tfrecord" \
+    --data_list=lists/distilling.lst \
+    --batch_size=80 \
+    --netvlad_cluster_size=64 \
+    --netvlad_hidden_size=1024 \
+    --moe_l2=1e-6 \
+    --iterations=300 \
+    --netvlad_relu=False \
+    --gating=True \
+    --moe_pro_gating=True \
+    --nonlocalvlad=True \
+    --beforeNorm=True \
+    --num_readers=8 \
+    --run_once=True \
+    --base_learning_rate=0.0002 \
+    --learning_rate_decay=0.8 \
+    --max_step=700000 \
+    --save_model_steps=10000 \
+    --num_epochs=20 \
+    --swa=False \
+    --swa_start=170000
+
