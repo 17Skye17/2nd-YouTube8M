@@ -5,19 +5,19 @@ If you run into any trouble with the setup/code or have any questions please con
 
 ****
 # CONTENTS
-* [archive contents](#ARCHIVECONTENTS)
-* [hardware](#HARDWARE) 
-* [software](#SOFTWARE)
-* [installation](#INSTALLATION)
-* [training](#TRAINING)
-	* data setup
-	* train a single model
-	* linear checkpoint averaging
-* [evaluation](#EVALUATION)
-	* quantization
-	* model ensemble
-* [inference](#INFERENCE)
-
+* [Archive Contents](#ARCHIVECONTENTS)
+* [Hardware](#HARDWARE) 
+* [Software](#SOFTWARE)
+* [Installation](#INSTALLATION)
+* [Training](#TRAINING)
+	* Data setup
+	* Train a single model
+	* Linear checkpoint averaging
+* [Evaluation](#EVALUATION)
+	* Quantization
+	* Model ensemble
+* [Inference](#INFERENCE)
+* [LICENSE](#LICENSE)
 # ARCHIVE CONTENTS
 | Folder | Contents|
 | ---------- | -----------|
@@ -122,3 +122,6 @@ First modify `train_dir` and `output_file` in `ensemble_infer.sh`,then run:
 You can also use our pretrained model to make predictions, the pretrained` inferece_model` is in  `./models`, just specify `train_dir=./models`.
 
 Done! Now we get the .csv file for submission : )
+
+# LICENSE
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
