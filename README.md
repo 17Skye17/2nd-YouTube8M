@@ -5,19 +5,19 @@ If you run into any trouble with the setup/code or have any questions please con
 
 ****
 # CONTENTS
-* [Archive Contents](#ARCHIVECONTENTS)
+* [archive contents](#ARCHIVECONTENTS)
 * [hardware](#HARDWARE) 
-* [Software](#SOFTWARE)
-* [Installation](#INSTALLATION)
-* [Training](#TRAINING)
-	* Data setup
-	* Train a single model
-	* Linear checkpoint averaging
-* [Evaluation](#EVALUATION)
-	* Quantization
-	* Model ensemble
-* [Inference](#INFERENCE)
-* [License](#LICENSE)
+* [software](#SOFTWARE)
+* [installation](#INSTALLATION)
+* [training](#TRAINING)
+	* data setup
+	* train a single model
+	* linear checkpoint averaging
+* [evaluation](#EVALUATION)
+	* quantization
+	* model ensemble
+* [inference](#INFERENCE)
+
 # ARCHIVE CONTENTS
 | Folder | Contents|
 | ---------- | -----------|
@@ -124,4 +124,4 @@ You can also use our pretrained model to make predictions, the pretrained` infer
 Done! Now we get the .csv file for submission : )
 
 # LICENSE
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
