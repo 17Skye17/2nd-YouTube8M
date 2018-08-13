@@ -6,7 +6,7 @@ If you run into any trouble with the setup/code or have any questions please con
 ****
 # CONTENTS
 * [Archive Contents](#ARCHIVECONTENTS)
-* [Hardware](#HARDWARE) 
+* [hardware](#HARDWARE) 
 * [Software](#SOFTWARE)
 * [Installation](#INSTALLATION)
 * [Training](#TRAINING)
