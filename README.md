@@ -17,7 +17,7 @@ If you run into any trouble with the setup/code or have any questions please con
 	* Quantization
 	* Model ensemble
 * [Inference](#INFERENCE)
-* [LICENSE](#LICENSE)
+* [License](#LICENSE)
 # ARCHIVE CONTENTS
 | Folder | Contents|
 | ---------- | -----------|
