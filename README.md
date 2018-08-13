@@ -5,18 +5,19 @@ If you run into any trouble with the setup/code or have any questions please con
 
 ****
 # CONTENTS
-* [archive contents](#ARCHIVECONTENTS)
-* [hardware](#HARDWARE) 
-* [software](#SOFTWARE)
-* [installation](#INSTALLATION)
-* [training](#TRAINING)
-	* data setup
-	* train a single model
-	* linear checkpoint averaging
-* [evaluation](#EVALUATION)
-	* quantization
-	* model ensemble
-* [inference](#INFERENCE)
+* [Archive Contens](#archive-contents)
+* [Hardware](#hardware)
+* [Software](#software)
+* [Installation](#installation)
+* [Training](#training)
+	* [Data Setup](#data-setup)
+	* [Train a Single Model](#train-a-single-model)
+	* [Linear Checkpoint Averaging](#linear-checkpoint-averaging)
+* [Evaluation](#evaluation)
+	* [Quantization](#quantization)
+	* [Model Ensemble](#model-ensemble)
+* [Inference](#inference)
+* [License](#license)
 
 # ARCHIVE CONTENTS
 | Folder | Contents|
