@@ -1,7 +1,7 @@
 # YT8M-T solution for <2nd YouTube-8M Video Understanding Challenge> competition
 
 Below you can find a outline of how to reproduce our solution for the <2nd YouTube-8M Video Understanding Challenge> competition.
-If you run into any trouble with the setup/code or have any questions please contact us at <303297957@qq.com>
+If you run into any trouble with the setup/code or have any questions please contact us at <skyezx2018@gmail.com> &  <303297957@qq.com>
 
 ****
 # CONTENTS
